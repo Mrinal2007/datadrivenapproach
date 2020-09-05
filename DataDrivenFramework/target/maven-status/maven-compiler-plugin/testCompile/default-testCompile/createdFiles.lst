@@ -1,0 +1,5 @@
+com\nec\testcases\AddCustomerTest.class
+com\nec\testcases\BankManagerLoginTest.class
+com\nec\rough\TestProperties.class
+com\nec\utilities\ExcelReader.class
+com\nec\base\TestBase.class

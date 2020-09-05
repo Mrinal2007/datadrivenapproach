@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Data Driven Basics]">
+  <test name="Add Customer Test(failed)">
+    <classes>
+      <class name="com.nec.testcases.AddCustomerTest">
+        <methods>
+          <include name="addCustomer" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.nec.testcases.AddCustomerTest -->
+    </classes>
+  </test> <!-- Add Customer Test(failed) -->
+</suite> <!-- Failed suite [Data Driven Basics] -->

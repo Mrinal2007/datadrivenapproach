@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[login successfully]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=" C:\Users\dmrin\OneDrive\Pictures\Screenshots\Screenshot%20(67).png">Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=" C:\Users\dmrin\OneDrive\Pictures\Screenshots\Screenshot%20(67).png"><img src=" C:\Users\dmrin\OneDrive\Pictures\Screenshots\Screenshot%20(67).png" height=200 width=200< </img> </a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Data Driven Basics" duration-ms="10850" started-at="2020-08-31T16:19:08Z" finished-at="2020-08-31T16:19:19Z">
+    <groups>
+    </groups>
+    <test name="Bank Manager Login Test" duration-ms="3297" started-at="2020-08-31T16:19:08Z" finished-at="2020-08-31T16:19:11Z">
+      <class name="com.nec.testcases.BankManagerLoginTest">
+        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:com.nec.testcases.BankManagerLoginTest@2cdd0d4b]" name="loginAsBankManager" duration-ms="3251" started-at="2020-08-31T21:49:08Z" finished-at="2020-08-31T21:49:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login successfully]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=" C:\Users\dmrin\OneDrive\Pictures\Screenshots\Screenshot%20(67).png">Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=" C:\Users\dmrin\OneDrive\Pictures\Screenshots\Screenshot%20(67).png"><img src=" C:\Users\dmrin\OneDrive\Pictures\Screenshots\Screenshot%20(67).png" height=200 width=200< </img> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+      </class> <!-- com.nec.testcases.BankManagerLoginTest -->
+    </test> <!-- Bank Manager Login Test -->
+    <test name="Add Customer Test" duration-ms="7489" started-at="2020-08-31T16:19:11Z" finished-at="2020-08-31T16:19:19Z">
+      <class name="com.nec.testcases.AddCustomerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nec.testcases.AddCustomerTest@4cc8eb05]" name="setUp" is-config="true" duration-ms="9200" started-at="2020-08-31T21:48:59Z" finished-at="2020-08-31T21:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.nec.testcases.AddCustomerTest@4cc8eb05]" name="addCustomer" duration-ms="7427" started-at="2020-08-31T21:49:11Z" data-provider="getdata" finished-at="2020-08-31T21:49:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mrinal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[das]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[110085.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nec.testcases.AddCustomerTest@4cc8eb05]" name="tearDown" is-config="true" duration-ms="1547" started-at="2020-08-31T21:49:19Z" finished-at="2020-08-31T21:49:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nec.testcases.AddCustomerTest -->
+    </test> <!-- Add Customer Test -->
+  </suite> <!-- Data Driven Basics -->
+</testng-results>
